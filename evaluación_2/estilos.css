@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgba(114, 89, 255, 0.2);
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+    box-shadow: 15px 10px 10px rgb(77, 39, 115);
+}
+
+
+.logo{
+    margin-left: 90px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2px;
+    position: relative;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 90px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.navbar ul li :hover{
+    color: black;
+    background: white;
+
+}
+
+
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+.content h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(190, 149, 1);
+    cursor: pointer;
+}
+
+.content h1:hover{
+    font-size: 44px;
+    color: rebeccapurple;
+}
+
+.content h3:hover{
+    font-size: 34px;
+    color: rebeccapurple;
+}
+
+
+.text1{
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 40px;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.button {
+    margin: 50px 50px;
+    margin-left: 660px;
+    font-size: 20px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rebeccapurple;
+    background-color: rebeccapurple;
+    color: white;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rebeccapurple;
+}
+
+.button:hover{
+    background-color: rgba(114, 89, 255, 0.2);
+}
+
+@media (max-width: 649px) {
+    .navbar{
+        height: 100%;
+        margin: auto;
+        padding: 3px 0;
+        display: flex;
+        align-items:flex-start;
+        justify-content: space-between;
+        background-color: rebeccapurple;
+        box-shadow: 15px 10px 10px rgb(77, 39, 115);
+
+
+    }
+}
+   
